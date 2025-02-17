@@ -1,5 +1,6 @@
 name: Sync Main
 on:
+  workflow_dispatch:
   schedule:
     - cron:  '55 * * * *'
 jobs:
