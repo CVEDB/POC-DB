@@ -7,7 +7,7 @@ jobs:
   sync-main:
     name: Sync-main
     runs-on: ubuntu-latest
-    if: github.repository == 'cvedb/poc-db'
+    if: github.repository == 'POC-DB'
     permissions:
       contents: write
     steps:
